@@ -1,0 +1,15 @@
+# Steps I used to install Sass
+
+1. Installed Node.js using nvm:
+   $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   $ exit
+   Reopened terminal
+   $ nvm install 20.16
+   $ nvm use 20.16
+
+2. Installed Dart Sass via npm:
+   $ npm install -g sass
+
+3. Verified installation:
+   $ sass --version
+   Output: 1.89.1
