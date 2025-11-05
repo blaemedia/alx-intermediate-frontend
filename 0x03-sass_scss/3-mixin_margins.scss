@@ -1,0 +1,33 @@
+$text-color: #3D3D3D;
+
+body {
+  color: $text-color;
+}
+
+p {
+  color: $text-color;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+  p {
+    margin: 10px;
+  }
+}
+
+
+@mixin horizontal-margin($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+body {
+  @include horizontal-margin(10px, 10px);
+}
+
+div {
+  @include horizontal-margin(15px, 15px);
+}

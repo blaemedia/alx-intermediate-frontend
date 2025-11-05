@@ -1,0 +1,13 @@
+// 1-color_variable.scss
+
+// Define a Sass variable for the text color
+$text-color: #3D3D3D;
+
+// Assign the color to body and paragraph tags
+body {
+  color: $text-color;
+}
+
+p {
+  color: $text-color;
+}
